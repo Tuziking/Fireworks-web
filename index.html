@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firework just for you</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+    body {
+      background-color: black;
+    }
+    canvas {
+      position: absolute;
+      z-index: 0;
+    }
+
+    h1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: 'Reggae One', CenturyGothic, "AppleGothic", sans-serif;
+      font-size: 50px;
+      color: #fff;
+      text-shadow: 0 0 10px #0ebeff, 0 0 20px #0ebeff, 0 0 50px #0ebeff, 0 0 100px #0ebeff, 0 0 200px #0ebeff;
+
+    }
+    h2 {
+      position: absolute;
+      top: calc(50% + 70px);
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: 'Reggae One', CenturyGothic, "AppleGothic", sans-serif;
+      font-size: 30px;
+      color: #fff;
+      text-shadow: 0 0 10px #0ebeff, 0 0 20px #0ebeff, 0 0 50px #0ebeff, 0 0 100px #0ebeff, 0 0 200px #0ebeff;
+    }
+    a {
+      position: absolute;
+      top: calc(50% + 150px); /* 将top属性设置为h1标签的位置下方50像素 */
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 20px;
+      margin: auto;
+      color: #fff;
+      text-shadow: 0 0 10px #0ebeff, 0 0 20px #0ebeff, 0 0 50px #0ebeff, 0 0 100px #0ebeff, 0 0 200px #0ebeff;
+    }
+
+    .hover {
+      text-shadow: unset;
+      transition: .2s;
+      cursor: pointer;
+    }
+
+    .hover:hover {
+      text-shadow: 0 0 10px #0ebeff, 0 0 20px #0ebeff, 0 0 50px #0ebeff, 0 0 100px #0ebeff, 0 0 200px #0ebeff;
+    }
+  </style>
+</head>
+
+<body>
+<canvas>您的浏览器不支持</canvas>
+
+<h1>漫天的烟火送给遥远的你</h1>
+<h2>如果不够的话，在加上你和你和名字！</h2>
+<a href="lovedemo.html" class="hover">(click here)</a>
+<script src="index.js"></script>
+<!--  <script src="name.js"></script>-->
+</body>
+
+</html>
